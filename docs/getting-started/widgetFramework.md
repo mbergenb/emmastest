@@ -30,14 +30,14 @@ The framework is responsible for the creation, layout and lifecycle management o
   
 <b> Script file </b> 
 <ul>	
-  <li> Mandatory for inline widgets only
-	<li> Should be minimized and combined into one file
+  <li> Mandatory for inline widgets only </li>
+	<li> Should be minimized and combined into one file </li>
 </ul>
 
 <b> HTML template(s) </b>
 <ul>	
-  <li> Optional but only applicable for inline and inline hybrid widgets
-	<li> For AngularJS, the templates should be inline and registered directly to the template cache
+  <li> Optional but only applicable for inline and inline hybrid widgets </li>
+	<li> For AngularJS, the templates should be inline and registered directly to the template cache </li>
 </ul>
 
 ## Inline Widget API
@@ -45,14 +45,14 @@ An inline widget AMD module must expose a widget factory function, IWidgetInstan
 
 <b>IWidgetContext</b>
 <ul>
-  <li>Represents the runtime context for a widget
-  <li>Settings, widget data, DOM element, framework API etc.  
-  <li>Specific for each widget instance  
+  <li>Represents the runtime context for a widget </li>
+  <li>Settings, widget data, DOM element, framework API etc. </li>
+  <li>Specific for each widget instance </li>
 </ul>
 
 <b>IWidgetInstance</b>
 <ul>
-  <li>Represents a widget instance
-  <li>Optional functions called by the framework to notify the widget of state changes, settings updated etc.
-  <li>Defines widget actions, which will appear in the widget menu, and as a button next to the menu if set to primary  
+  <li>Represents a widget instance </li>
+  <li>Optional functions called by the framework to notify the widget of state changes, settings updated etc. </li>
+  <li>Defines widget actions, which will appear in the widget menu, and as a button next to the menu if set to primary </li>
 </ul>
